@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/BtnLa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="@color/material_dynamic_neutral80"
+        android:text="La"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/BtnTi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnSo"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/BtnSo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="@color/material_dynamic_neutral80"
+        android:text="So"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/BtnLa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnFa"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/BtnDo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="@color/material_dynamic_neutral80"
+        android:text="Do"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/BtnRe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/BtnMi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="@color/material_dynamic_neutral80"
+        android:text="Mi"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/BtnFa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnRe"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/BtnRe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="@color/material_dynamic_neutral80"
+        android:text="Re"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/BtnMi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnDo"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/BtnFa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="@color/material_dynamic_neutral80"
+        android:text="Fa"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/BtnSo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnMi"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/BtnTi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="@color/material_dynamic_neutral80"
+        android:text="Ti"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/BtnDoo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnLa"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/BtnDoo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="@color/material_dynamic_neutral80"
+        android:text="Do"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnTi"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
